@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
+  <link href='https://fonts.googleapis.com/css?family=Red Hat Display' rel='stylesheet'>
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <title>Frontend Mentor | Order summary card</title>
@@ -11,19 +11,26 @@
 <body>
   <section>
     <div class="container">
-      <img src="images/illustration-hero.svg" alt="">
+      <img src="images/illustration-hero.svg" alt="" class="mainimage">
       <div class="text">
           <h1>Order Summary</h1>
 
-          <p>You can now listen to millions of songs, audiobooks, and podcasts on any 
-          device anywhere you like!</p>
-
-          Annual Plan
-          $59.99/year
-
-          Change
-
-          Proceed to Payment
+          <p>You can now listen to millions of songs,<br> audiobooks, and podcasts on any 
+          device<br> anywhere you like!</p>
+            <div class="annual-plan">
+              <div class="left">
+                  <img src="images/icon-music.svg" alt="" class="icon">
+                   Annual Plan<br>
+                  $59.99/year
+              </div>
+                  <div class="right">
+                      Change<br>
+                  </div>
+            </div>
+            <button>
+                Proceed to Payment
+            </button>
+          <br>
           Cancel Order
     </div>
     </div>
