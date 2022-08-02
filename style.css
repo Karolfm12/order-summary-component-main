@@ -1,0 +1,22 @@
+section{
+    background:url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    background-color: white; 
+    border-radius: 20px;
+}
+
+.container img{
+    width: 100%;
+}
+
+.text{
+    padding: 20px;
+}
